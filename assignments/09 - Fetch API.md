@@ -15,7 +15,7 @@
 
 #### Handle your JSON data
 - [ ] Chain another `then` method and pass it a callback function to parse the response and store it in a variable named `repositories`
-  - hint: JSON.parse(this.response)
+  - hint: the value passed into this callback is already the parsed JSON (from the `.then` above) — just assign it to `repositories`
 - [ ] Console.log the value of repositories to better see the data returned from your API fetch
 - [ ] Save and refresh your browser _(or just check your browser for changes if using live extension)_
   - You should see the list of your GitHub repositories displayed in your console.
@@ -56,7 +56,7 @@ Once you've made the above changes to your index.js file, follow the below instr
 ### Submit Assignment
 Now let's make sure that lesson branch will be reviewed.
 
-- [ ] Go to your GitHub repository page in your web browser now, and you should see a "lesson-13 has a recent push" notice with a green "Compare & pull request" button. Click that button
+- [ ] Go to your GitHub repository page in your web browser now, and you should see a "lesson-9 has a recent push" notice with a green "Compare & pull request" button. Click that button
 - [ ] Feel free to put notes to yourself or notes for your reviewer in the description (be sure you're including any questions to your reviewer in your assignment submission form though!) and click the green "Create pull request" button.
 - [ ] Copy the address of your pull request page (should look like https://github.com/yourUsername/name-classname/pull/8) and paste it into your assignment submission form.  **_NOTE: If you'd like your reviewer to check your open API project work in progress, submit the link in the "questions" field of your assignment submission form._**
 
